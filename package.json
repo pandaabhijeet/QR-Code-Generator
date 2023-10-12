@@ -1,0 +1,16 @@
+{
+  "name": "qr-code-generator",
+  "version": "1.0.0",
+  "description": "a simple qr code generator for URLs.",
+  "main": "qr_gen.js",
+  "type": "module",
+  "scripts": {
+    "test": "node start"
+  },
+  "author": "Abhijeet Panda",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.11",
+    "qr-image": "^3.2.0"
+  }
+}
